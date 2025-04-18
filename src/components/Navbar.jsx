@@ -12,7 +12,7 @@ function Navbar() {
 								</svg></div>
         <div className='links flex gap-10 '>
             {["services","Our work", "About us", "Insight", "Contact"].map((item, index) => (
-               <a key={index} className={`text-md capitalize font-light ${index === 4 && "ml-32"}`}>{item}</a> ))}
+               <a key={index} className={`text-md capitalize font-light ${index === 4 && "ml-[5vw]"}`}>{item}</a> ))}
         </div>
     </div>
   )
